@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MercadoBitcoin.API", "MercadoBitcoin.API\MercadoBitcoin.API.csproj", "{8A59EEA0-C787-45CA-890B-69F2746AABAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{6200EBE0-B92D-49CA-8250-E9CE9D29E455}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{2D68F5F0-25E5-49FA-A2E1-48ACC63A29E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Service", "1 - Service", "{4C89CDAC-AE43-4C51-B116-44A6B741C662}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MercadoBitcoin.Test", "MercadoBitcoin.Test\MercadoBitcoin.Test.csproj", "{A49C9F8C-2B73-4B67-A314-41B2DB85DFFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MercadoBitcoin.Service", "MercadoBitcoin.Service\MercadoBitcoin.Service.csproj", "{2DB8C2DB-BF5C-42FF-884C-C4B6F45AAF13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{6186DA27-56B2-4104-AE14-998D03587B2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MercadoBitcoin.Infra", "MercadoBitcoin.Infra\MercadoBitcoin.Infra.csproj", "{E75D638D-922B-4B56-926A-76329DAEB6AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{0EEFD3DC-1541-4ECF-B5D9-D56A47ACFF89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MercadoBitcoin.Domain", "MercadoBitcoin.Domain\MercadoBitcoin.Domain.csproj", "{93761FC4-EC57-4295-A4FA-9798035BB257}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A59EEA0-C787-45CA-890B-69F2746AABAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A59EEA0-C787-45CA-890B-69F2746AABAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A59EEA0-C787-45CA-890B-69F2746AABAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A59EEA0-C787-45CA-890B-69F2746AABAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49C9F8C-2B73-4B67-A314-41B2DB85DFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49C9F8C-2B73-4B67-A314-41B2DB85DFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49C9F8C-2B73-4B67-A314-41B2DB85DFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49C9F8C-2B73-4B67-A314-41B2DB85DFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB8C2DB-BF5C-42FF-884C-C4B6F45AAF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB8C2DB-BF5C-42FF-884C-C4B6F45AAF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB8C2DB-BF5C-42FF-884C-C4B6F45AAF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB8C2DB-BF5C-42FF-884C-C4B6F45AAF13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E75D638D-922B-4B56-926A-76329DAEB6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E75D638D-922B-4B56-926A-76329DAEB6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E75D638D-922B-4B56-926A-76329DAEB6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E75D638D-922B-4B56-926A-76329DAEB6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93761FC4-EC57-4295-A4FA-9798035BB257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93761FC4-EC57-4295-A4FA-9798035BB257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93761FC4-EC57-4295-A4FA-9798035BB257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93761FC4-EC57-4295-A4FA-9798035BB257}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A59EEA0-C787-45CA-890B-69F2746AABAD} = {6200EBE0-B92D-49CA-8250-E9CE9D29E455}
+		{A49C9F8C-2B73-4B67-A314-41B2DB85DFFD} = {2D68F5F0-25E5-49FA-A2E1-48ACC63A29E6}
+		{2DB8C2DB-BF5C-42FF-884C-C4B6F45AAF13} = {4C89CDAC-AE43-4C51-B116-44A6B741C662}
+		{E75D638D-922B-4B56-926A-76329DAEB6AA} = {6186DA27-56B2-4104-AE14-998D03587B2E}
+		{93761FC4-EC57-4295-A4FA-9798035BB257} = {0EEFD3DC-1541-4ECF-B5D9-D56A47ACFF89}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D95C3260-D4FA-4A2B-B4A1-082B647D02B5}
+	EndGlobalSection
+EndGlobal
