@@ -94,7 +94,7 @@ namespace MercadoBitcoin.Test
             var request = new DaySummaryGetRequest()
             {
                 Coins = Domain.CoinsEnum.BTC,
-                Date = DateTime.Now
+                Date = DateTime.Parse("2020-12-12")
             };
 
             var context = new System.ComponentModel.DataAnnotations.ValidationContext(request, serviceProvider: null, items: null);
